@@ -1,0 +1,6 @@
+[submodule "Intraface"]
+	path = Intraface
+	url = http://gogs.cihansari.com/csari/IntraFace.git
+[submodule "CihanLib"]
+	path = CihanLib
+	url = http://gogs.cihansari.com/Libraries/CihanLib.git
