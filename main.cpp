@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationDomain("www.cihansari.com");
 
     QCommandLineParser parser;
-    parser.setApplicationDescription("Detect faces. Segment cloths under each face given parameters.");
+    parser.setApplicationDescription("Detects faces then segment cloths. Writes the results into image metadata with OpenCV yaml format; yaml key mask. To access to binary mask use=> mask&1.");
     parser.addHelpOption();
     parser.addPositionalArgument("source", "Source file(s) or directory to look for images.");
 
